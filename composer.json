@@ -1,0 +1,16 @@
+{
+    "name": "My project",
+    "description": "My first single project",
+    "require": {
+        "nikic/fast-route": "^1.3",
+        "php-di/php-di": "^6.1",
+        "league/plates": "^3.3",
+        "aura/sqlquery": "^2.7"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    }
+}
